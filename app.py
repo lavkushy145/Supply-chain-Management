@@ -38,10 +38,31 @@ def apply_label_encoders(data):
 
 if page == "Homepage":
     st.title("Welcome to the Supply Chain Management Dashboard")
+    if page == "Homepage":
+    st.title("Welcome to the Supply Chain Management Dashboard")
     st.markdown("""
-    This dashboard allows you to manage and optimize various aspects of your supply chain.
-    Use the sidebar to navigate between different features such as uploading data, optimizing inventory, forecasting demand, and more.
+    ### Comprehensive Dashboard for Supply Chain Management
+
+    This dashboard is designed to empower supply chain managers and teams with tools and insights necessary for effective supply chain management.
+
+    **Navigate through the sidebar to access various functionalities:**
+
+    - **Data Upload**: Upload your CSV data files here. Visualize and verify the data to ensure accuracy before processing.
+    - **Data Cleaning**: Clean your data by removing duplicates, handling missing values, and preparing datasets for analysis.
+    - **Inventory Optimization**: Utilize predictive analytics to forecast demand, calculate optimal reorder points, and manage inventory levels efficiently.
+    - **Customer Segmentation and Targeted Marketing**: Segment your customers based on their behavior and demographics. Develop targeted marketing strategies to enhance customer engagement.
+    - **Advanced Analytics**: Explore trend analysis, cost analysis, and other advanced analytical features to gain deeper insights into your supply chain operations.
+
+    **Features Designed for Operational Excellence:**
+
+    - **Automated Recommendations**: Receive actionable insights and automated recommendations based on the latest data.
+    - **Real-time Updates**: The dashboard updates dynamically as new data is uploaded or existing data is modified, ensuring that you always have access to the latest insights.
+    - **Collaborative Tool**: Share insights and reports directly from the dashboard to facilitate decision-making and streamline communication among team members and stakeholders.
+    - **Customizable Visualizations**: Engage with interactive and customizable visual dashboards that cater to specific managerial needs.
+
+    Use this dashboard to streamline your operations, reduce costs, and improve overall efficiency in managing your supply chain.
     """)
+
 
 elif page == "Data Upload":
     st.title("Upload Supply Chain Data")
