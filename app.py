@@ -39,7 +39,6 @@ def apply_label_encoders(data):
 if page == "Homepage":
     st.title("Welcome to the Supply Chain Management Dashboard")
     if page == "Homepage":
-    st.title("Welcome to the Supply Chain Management Dashboard")
     st.markdown("""
     ### Comprehensive Dashboard for Supply Chain Management
 
